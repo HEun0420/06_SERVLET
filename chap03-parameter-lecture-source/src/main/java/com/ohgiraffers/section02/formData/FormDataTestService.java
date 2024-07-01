@@ -18,7 +18,7 @@ public class FormDataTestService extends HttpServlet {
        // 인코딩 타입 확인
         System.out.println("request : " + request.getCharacterEncoding());
 
-        // Post 방식으로 요청 내용을 확인하는 것도 Get 요청으로 파라미터를 처리하는 방식이라 ㅇ동일함.
+        // Post 방식으로 요청 내용을 확인하는 것도 Get 요청으로 파라미터를 처리하는 방식이라 동일함.
         String name = request.getParameter("name");
         System.out.println("name= " + name);
 
