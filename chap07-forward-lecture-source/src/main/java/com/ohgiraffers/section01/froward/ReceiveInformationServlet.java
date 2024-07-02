@@ -34,5 +34,4 @@ public class ReceiveInformationServlet extends HttpServlet {
         rd.forward(request, response);
 
     }
-
 }
