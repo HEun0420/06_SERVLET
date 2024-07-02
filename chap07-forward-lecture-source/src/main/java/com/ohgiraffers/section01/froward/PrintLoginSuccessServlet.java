@@ -59,7 +59,7 @@ public class PrintLoginSuccessServlet extends HttpServlet {
         * URL이 변경되지 않는다. (결과화면만 받으면 되기 때문)
         * ==> forward 방식의 특징이 요쳥시 서버로 전송한 데이터가 남아있는 상태로 새고로침(=재요청)
         * 을 하게 되면 동일한 요청이 반복적으로 데이터 베이스에 insert하는 등의 행위가 중복될 가능성이 있다.
-        * -> 다른 페이지 전환 방식인 sendRedirect를 이용한다.
+        *
          */
 
 
