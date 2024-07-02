@@ -8,4 +8,9 @@
 <!--       404 에러 발생시 -> showerrorpage로 보낸다. -->
         <location>/showerrorpage</location>
     </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <!--       500 에러 발생시 -> showerrorpage로 보낸다. -->
+        <location>/showerrorpage</location>
+    </error-page>
 </web-app>
