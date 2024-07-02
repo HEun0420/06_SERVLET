@@ -2,12 +2,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Redirect</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1>Redirect
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<ul>
+    <li><a href ="othersite">다른 웹 사이트로 redirect 테스트</a></li>
+    <li><a href ="otherservlet">다른 서블렛으로 redirect 테스트</a></li>
+</ul>
 </body>
 </html>
